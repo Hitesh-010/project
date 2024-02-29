@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    background-color: rgb(229, 181, 255);
+}
+
+
+.hero{
+    width: 100%;
+    height: 15vh;
+    top: 0;
+    position: fixed;
+    padding: 0 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+
+
+nav{
+
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 5px 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav .logo{
+    width: 10%;
+    align-items: center;
+
+}
+
+nav .logoname{
+    width: 134px;
+    height: 34px;
+    align-items: center;
+}
+
+}
+
+
+
+.main1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 150px;
+    padding: 0 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .nav{
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 5px 5px;
+        height: 352px;
+        width: 100%;
+    }
+
+    nav .car{
+        width: 350px;
+        height: 200px;
+        position: absolute;
+        bottom: 100;
+        left: 400px;
+    }
+    
+    nav .car:hover{
+        transform: scale(1.2);
+    }
+
+    nav .bike{
+        width: 280px;
+        height: 280px;
+        position: absolute;
+        bottom: 55;
+        right: 400;
+    }
+    nav .bike:hover{
+        transform: scale(1.2);
+    }
+}
